@@ -1,0 +1,352 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #dbe7ff;
+}
+
+/* Navbar */
+.header {
+    background-image: url("header-background.jpg"); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:20px;
+}
+
+.logo img {
+    max-width: 200px; 
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    position: relative;
+    margin-right: 30px;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.search-bar button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.sign-in {
+    background-color: #333;
+    color: #fff;
+}
+
+.register {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #333;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    margin-bottom: 30px;
+    background-image: url('image/Frame 2232-5.png');
+    color: white;
+}
+.hero-content{
+  margin-left: 50px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-content .rating {
+    margin-bottom: 10px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    
+}
+
+/* Program Info Section */
+.program-info {
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 30px;
+    justify-content: space-around;
+}
+
+.program-info h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.program-info p {
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.info-card img {
+    max-width: 300px;
+    margin-right: 30px;
+}
+
+.card-content {
+    text-align: left;
+}
+
+.btn-primary {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.details p {
+    margin-bottom: 10px;
+}
+
+
+/* Benefits Section */
+.benefits {
+    padding: 50px;
+    text-align: center;
+    
+}
+
+.benefit-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.benefit-card {
+    background-image: url('image/Frame 2232-6.png');
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: white;
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+.benefit-card img{
+  height: 50px;
+  width: 50px;
+  margin-bottom: 30px;
+}
+.benefit-card h3 {
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.benefit-card p {
+    font-size: 0.95rem;
+    
+    line-height: 1.5;
+}
+
+.job-related-questions {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 20px;
+  padding: 50px;
+  
+}
+
+.job-roles, .related-courses, .contact-us {
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.job-roles ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style: none;
+  padding: 0;
+}
+
+.related-courses .course {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.related-courses .course img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.related-courses .course h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+.contact-us {
+  padding: 50px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 30px;
+    justify-content: space-around;
+}
+
+.contact-us form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us input, .contact-us textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-us button {
+  padding: 10px;
+  background: #0056d2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-us button:hover {
+  background: #004bb5;
+}
+
+
+/* Footer */
+/* Footer Styles */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 0;
+  
+}
+footer .container{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.footer-top .logo img {
+  max-width: 150px;
+}
+
+.footer-top .contact {
+  margin-left: 50px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links .column {
+  margin-right: 50px;
+}
+
+.footer-links h3 {
+  margin-bottom: 20px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 15px;
+}
+
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-media {
+  margin-top: 30px;
+}
+
+.social-media a {
+  color: #fff;
+  margin-right: 15px;
+}
+
+.copyright {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+}
